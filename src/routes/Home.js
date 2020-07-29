@@ -2,6 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import Movie from '../components/Movie';
 import './Home.css';
+import App from '../App';
 
 class Home extends React.Component {
   state = {
@@ -47,5 +48,4 @@ class Home extends React.Component {
     );
   }
 }
-
 export default App;
